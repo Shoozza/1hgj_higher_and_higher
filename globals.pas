@@ -17,7 +17,7 @@ var
   IsRunning: Boolean;
   BackgroundColor: ALLEGRO_COLOR;
   Font: ALLEGRO_FONTptr;
-  Image: ALLEGRO_BITMAPptr;
+  PlayerImg, StarImg, ZombieImg, Image: ALLEGRO_BITMAPptr;
   Sound: ALLEGRO_SAMPLEptr;
   Music: ALLEGRO_AUDIO_STREAMptr;
 

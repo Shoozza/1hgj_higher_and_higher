@@ -20,13 +20,13 @@ uses
 
 procedure Load;
 begin
-  ScreenWidth := 854;
-  ScreenHeight := 480;
+  ScreenWidth := 480;
+  ScreenHeight := 854;
 
   if not al_init then
     ErrorQuit('Init');
 
-  BackgroundColor := al_map_rgb(49, 61, 79);
+  BackgroundColor := al_map_rgb(11, 11, 11);
 
   //al_set_new_display_flags(ALLEGRO_NOFRAME);
   al_set_new_display_option(ALLEGRO_VSYNC, 1, ALLEGRO_SUGGEST);
